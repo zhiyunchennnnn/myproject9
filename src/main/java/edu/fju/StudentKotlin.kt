@@ -1,6 +1,6 @@
 package edu.fju
 
-class StudentKotlin(val name:String,var math :Int, var english:Int) {
+class StudentKotlin(var name :String,var math :Int, var english:Int) {
     fun getAverage(){
         println(name+" "+math+" "+english+" "+(math+english)/2)
     }
